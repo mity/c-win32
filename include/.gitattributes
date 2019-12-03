@@ -3,6 +3,4 @@
 #
 # See https://github.com/github/linguist#overrides
 
-c-d2d1.h linguist-language=C
-c-dwrite.h linguist-language=C
-c-gdiplus.h linguist-language=C
+*.h linguist-language=C

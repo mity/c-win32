@@ -1,0 +1,8 @@
+# The nature of these headers is quite atypical and GitHub tends to mis-detect
+# them as different languages. So lets tell explicitly.
+#
+# See https://github.com/github/linguist#overrides
+
+c-d2d1.h linguist-language=C
+c-dwrite.h linguist-language=C
+c-gdiplus.h linguist-language=C

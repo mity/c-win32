@@ -6,10 +6,15 @@
 
 This "project" provides some header files which are moral replacements for
 corresponding Win32API headers from Microsoft Windows SDK which require C++
-and which are, as they are, incompatible with plain C.
+and which, as they are, are incompatible with plain C.
 
-These headers certainly are not meant as a drop-in replacement for a whole SDK.
-We only allow, by using a particular replacement header, to use a particular
+Some background about this story can be found in [The oracle always tells the
+truth, even when it is wrong: COM method calls with a user-defined type as a
+return value](https://devblogs.microsoft.com/oldnewthing/20220113-00/?p=106152))
+by Raymond Chen.
+
+Our headers certainly are not meant as a drop-in replacement for a whole SDK.
+We only, by using a particular replacement header, allow using some particular
 SDK functionality which would otherwise be unusable from C.
 
 
